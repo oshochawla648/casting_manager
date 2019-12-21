@@ -4,7 +4,7 @@ import 'package:casting_manager/services/database_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../user.dart';
+import 'package:casting_manager/shared_state/user.dart';
 
 class RosterScreen extends StatelessWidget {
   final db = DatabaseService();
