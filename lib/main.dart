@@ -1,5 +1,5 @@
 // import 'package:casting_manager/data/actor.dart';
-import 'package:casting_manager/UI/login.dart';
+import 'package:casting_manager/UI/signup_page.dart';
 import 'package:casting_manager/shared_state/user.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
