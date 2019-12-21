@@ -5,7 +5,7 @@ bool isValidUsername(String name) {
 bool isValidName(String name) {
   return name != null &&
       name != '' &&
-      name.contains(new RegExp(r'^[a-zA-Z]*$'));
+      name.contains(new RegExp(r'^[a-zA-Z ]*$'));
 }
 
 bool isValidCost(String cost) {
