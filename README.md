@@ -81,14 +81,6 @@ There is on model in app, Actor, which model data from map and from firestore in
 
 Helper methods such as username, name, cost validors are placed here.
 
-- add_new_actor_screen.dart
-  - available_actors.dart
-  - home_screen.dart
-  - reusable_components
-    - submit_button.dart
-    - transparent_button.dart
-  - roster_screen.dart
-  - signup_page.dart
 
 ### UI
 
