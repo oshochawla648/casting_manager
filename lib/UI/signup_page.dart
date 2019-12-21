@@ -1,6 +1,6 @@
 import 'package:casting_manager/UI/reusable_components/submit_button.dart';
 import 'package:casting_manager/core/helper.dart';
-import 'package:casting_manager/user.dart';
+import 'package:casting_manager/shared_state/user.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../services/database_service.dart';
@@ -15,7 +15,6 @@ class _SignupPageState extends State<SignupPage> {
   String username;
   String error;
   bool loading = false;
-  @override
   @override
   Widget build(BuildContext context) {
     User user = Provider.of<User>(context);
